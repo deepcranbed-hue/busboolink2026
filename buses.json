@@ -1,0 +1,40 @@
+{
+  "buses": [
+    {
+      "id": 1,
+      "from": "New York",
+      "to": "Boston",
+      "date": "2024-12-24",
+      "departure": "08:00 AM",
+      "arrival": "12:00 PM",
+      "price": 35
+    },
+    {
+      "id": 2,
+      "from": "New York",
+      "to": "Boston",
+      "date": "2024-12-24",
+      "departure": "10:30 AM",
+      "arrival": "02:30 PM",
+      "price": 40
+    },
+    {
+      "id": 3,
+      "from": "Boston",
+      "to": "New York",
+      "date": "2024-12-25",
+      "departure": "09:15 AM",
+      "arrival": "01:15 PM",
+      "price": 38
+    },
+    {
+      "id": 4,
+      "from": "Los Angeles",
+      "to": "Las Vegas",
+      "date": "2024-12-28",
+      "departure": "07:00 AM",
+      "arrival": "12:00 PM",
+      "price": 55
+    }
+  ]
+}
