@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Booking App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bus Booking</h1>
+    </header>
+    <main>
+        <div class="booking-form">
+            <h2>Find Your Bus</h2>
+            <form id="booking-form">
+                <div class="form-group">
+                    <label for="from">From:</label>
+                    <input type="text" id="from" name="from" required>
+                </div>
+                <div class="form-group">
+                    <label for="to">To:</label>
+                    <input type="text" id="to" name="to" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <button type="submit">Search Buses</button>
+            </form>
+        </div>
+        <div class="booking-results">
+            <h2>Available Buses</h2>
+            <ul id="bus-list">
+                <!-- Bus results will be displayed here -->
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bus Booking App</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
